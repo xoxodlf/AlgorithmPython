@@ -1,6 +1,7 @@
 # 딕셔너리를 이용한 코드
 phone_book = ['119', '97674223', '1195524421']
 
+
 def solution(phone_book):
     answer = True
     dict = {}
@@ -15,6 +16,7 @@ def solution(phone_book):
         dict[i]=1
 
     return answer
+
 
 print(solution(phone_book))
 
