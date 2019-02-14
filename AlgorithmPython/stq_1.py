@@ -1,5 +1,6 @@
 #deque를 스택처럼 이용하여 푼 풀이.
 
+
 def solution(arrangement):
     from collections import deque
     answer = 0
